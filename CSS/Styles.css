@@ -1,0 +1,17 @@
+body {
+      background-color: rgb(232, 233, 237);
+    }
+
+hr {  border-style:none;
+      border-top-style: dotted;
+      border-color:rgb(232, 203, 207);
+      border-width: 8px;
+      width: 4%;
+
+    }
+
+h1 { color: LightSeaGreen;
+       }
+
+       h3 { color: #66BFBF;
+              }
