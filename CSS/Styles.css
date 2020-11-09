@@ -7,16 +7,61 @@ hr {  border-style:none;
       border-color:rgb(232, 203, 207);
       border-width: 8px;
       width: 4%;
-
     }
 
+table { border-spacing: 10px;
+}
+
+/* properties mentioned in the selectors overwrite the default browser
+   values. For instance font-siz specified below will overwrite browser-
+   default font-size for H1 headings...      */
+
 h1 { color: LightSeaGreen;
+     font-size: 70px;
        }
 
-       h3 { color: #66BFBF;
-              }
+h3 { color: #66BFBF;
+       }
+h3:hover { font-weight: 900; }
+
+table:hover { background-color: gold;}
+
+/* by using a colon :   we can use a psudo class. Which changes properties based
+on which state a text/link/image etc. is in. */
+
+a:hover { font-style: strong
+        }
+
+img:hover { background-color: Violet;
+}
+
 
 
 /*
 This is how we comment in CSS file. Forward slash, star, start and forward slash
 */
+
+/*                CLASS SELECTOR */
+
+.yelcar1 {
+  background-color: powderblue;
+}
+
+.yelcar2 {
+  background-color: green;
+}
+
+.testHeading {
+  color: Pink;
+}
+
+.yetAnotherName {
+  border-radius: circular;
+}
+
+/******************   ID SELECTOR   *****************/
+
+#testHeading {
+  color: RED;
+
+}
